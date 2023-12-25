@@ -1,0 +1,121 @@
+header {
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 10px;
+color: chocolate;
+
+}
+
+.search {
+  border: none;
+  border-bottom: 2px solid chocolate;
+  padding: 5px;
+  margin: 0 10px;
+  outline: none;
+
+}
+.title{
+  
+  font-size:30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.social{
+  color: black; 
+  padding: 8px 8px;
+   border: none;
+   cursor: pointer;
+}
+.social a{
+  color: black;
+  padding: 5px;
+  border: none;
+
+}
+.login-button {
+color: black; 
+ padding: 8px 8px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.cart a{
+  color: black; 
+ padding: 8px 8px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.navbar div a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px; /* Add margin between the items if desired */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center; /* Align items vertically in the center */
+  padding: 10px; /* Add padding as needed */
+  background-color: #fff; /* Add background color as needed */
+}
+
+.social, .login, .cart {
+  padding: 10px; /* Add padding as needed */
+  border: 1px solid #fff; /* Add border as needed */
+  border-radius: 5px; /* Add border-radius as needed */
+}
+
+
+
+.background-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Set the maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+  z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Ensure the content is above the overlay */
+  color: #fff; /* Set text color */
+  text-align: center;
+  padding: 20px;
+}
+.content span{
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 15px;
+}
+
